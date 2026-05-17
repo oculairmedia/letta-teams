@@ -47,3 +47,15 @@ skills-lock.json
 
 # Letta Code temp files
 C:\\Users\\*
+
+# Beads / Dolt files (added by bd init)
+.dolt/
+*.db
+.beads-credential-key
+
+# bd (beads): keep config + dolt db tracked; runtime files local-only
+.beads/.beads-credential-key
+.beads/dolt-server.lock
+.beads/dolt-server.log
+.beads/dolt-server.pid
+.beads/dolt-server.port
