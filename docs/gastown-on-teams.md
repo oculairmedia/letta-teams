@@ -1,3 +1,22 @@
+> **STATUS — SUPERSEDED 2026-05-17.** This pitch was written assuming a
+> letta-teams fork would host the orchestration work. After review, the
+> decision was to host the orchestration plane in **VibeSync** (which
+> consumes `letta-teams-sdk` via npm) rather than fork letta-teams. The
+> letta-teams fork stays upstream-pure.
+>
+> **Canonical doc:** `docs/architecture/gastown-orchestration.md` in
+> https://github.com/oculairmedia/vibesync (or wherever VibeSync lives
+> in your environment — `/opt/stacks/vibesync/docs/architecture/gastown-orchestration.md`).
+>
+> **Canonical bd queue:** `huly-vibe-sync-0ms` epic + children in
+> VibeSync's bd. The original lt-* beads here are kept for history but
+> won't be worked.
+>
+> The pitch below is preserved as the historical record. The argument
+> still holds; the *location* changed.
+>
+> ---
+
 # Layering Gas Town on Letta Teams
 
 A one-page architecture pitch for evolving letta-teams into a mature
